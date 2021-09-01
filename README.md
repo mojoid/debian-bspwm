@@ -10,11 +10,20 @@
 > **Set up**
 ```bash
 # echo "deb http://deb.debian.org/debian/ bullseye-backports main contrib non-free" >> /etc/apt/sources.list
-# apt update
-# apt install sudo xorg dialog network-manager git
-# usermod -aG sudo <iduser>
+```
+```bash
+# apt update && apt install sudo xorg dialog network-manager git
+```
+```bash
+# usermod -aG sudo $iduser (change $iduser with your id as user)
+```
+```bash
 # umount /mnt/dev/{proc,sys,dev}
+```
+```bash
 # exit
+```
+```bash
 # umount /mnt
 ```
 Reboot system and login as user.
@@ -22,26 +31,30 @@ Reboot system and login as user.
 > **Create xdg user directories**
 ```bash
 $ sudo apt install xdg-user-dirs
+```
+```bash
 $ xdg-user-dirs-update
 ```
-> **Aktivasi wifi**
+> **Aktivate wifi**
 ```bash
 $ sudo systemctl start NetworkManager
+```
+```bash
 $ sudo systemctl enable NetworkManager
 ```
 To connect wifi, use `nmtui`
 
-## bspwm-desktop-setup
+## Setup bspwm-desktop
 > **Required**
 ```bash
-$ sudo apt install bspwm sxhkd feh rsync python psmisc alsa-utils brightnessctl python3-psutil dunst libnotify-bin libglib2.0-bin gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit rxvt-unicode xclip scrot jq thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany viewnior neofetch htop imagemagick ffmpeg xsettingsd
+$ sudo apt install bspwm sxhkd xdotool feh rsync python psmisc alsa-utils pulseaudio pavucontrol brightnessctl python3-psutil dunst libnotify-bin libglib2.0-bin gsimplecal rofi lxappearance qt5ct qt5-style-plugins lxpolkit rxvt-unicode xclip scrot jq thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ffmpegthumbnailer tumbler w3m w3m-img geany viewnior neofetch htop imagemagick ffmpeg xsettingsd xfce4-power-manager
 ```
 > **Installing**
 ```bash
 $ git clone https://github.com/mojoid/debian-bspwm && cd debian-bspwm
 ```
 ```bash
-$ cp . $HOME
+$ cp -r . $HOME
 ```
 ```bash
 $ cd $HOME/.icons && tar -Jxvf icons.tar.xz
