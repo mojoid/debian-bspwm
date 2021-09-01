@@ -1,0 +1,136 @@
+/**/
+configuration {
+	show-icons:						false;
+	icon-theme: 					"Sardi-Flat";
+    drun-display-format:		"♥ {name}";
+    disable-history:               false;
+    fullscreen:                     	false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 				false;
+	modi:								"drun,run,window,Favorite:~/.config/bspwm/rofi/favorit";
+	font:								"Share Tech 11";
+<<<<<<< HEAD
+<<<<<<< HEAD
+	display-drun:					"Apps";
+	display-run:						"Run";
+	display-window:				"Running Apps";
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+}
+
+* {
+	background-color: @background;
+	text-color: @foreground;
+	columns: 1;
+	lines: 5;
+	x-offset: 5px;
+	y-offset: 37px;
+}
+
+@import "colors.rasi"
+
+window {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    height: 250px;
+    width: 550px;
+=======
+    height: 289px;
+    width: 600px;
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+    height: 289px;
+    width: 600px;
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+    location: northwest;
+    anchor: northwest;
+    text-color: @foreground;
+}
+prompt {
+	padding: 5px 20px 5px 20px;
+	text-color: @accent;
+}
+entry {
+	text-color: @accent;
+	padding: 5px 0px;
+}
+inputbar {
+<<<<<<< HEAD
+<<<<<<< HEAD
+	margin: 5px 130px 0px;
+	//border: 1px 1px 2px;
+	border-radius: 8px;
+=======
+	margin: 8px 120px 0px;
+	border: 1px 1px 2px;
+	border-radius: 25%;
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+	margin: 8px 120px 0px;
+	border: 1px 1px 2px;
+	border-radius: 25%;
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+	border-color: @foreground-list;
+}
+mainbox {
+    background-color: @accent;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    spacing: 3px;
+}
+listview {
+	    padding: 30px 50px 30px;
+=======
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+    spacing: 8px;
+}
+listview {
+	    padding: 30px 50px 75px;
+<<<<<<< HEAD
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+}
+element {
+	padding: 5px 20px;
+}
+element-icon {
+	size:		16px;
+}
+element selected  normal {
+	text-color: @background;
+    background-color: @accent;
+    border-radius: 5px;
+}
+element normal active {
+    text-color: @foreground;
+}
+element normal urgent {
+    text-color: @foreground;
+}
+element alternate normal {
+}
+element alternate active {
+    text-color: @foreground;
+}
+element alternate urgent {
+    text-color: @foreground;
+}
+element selected active {
+    background-color: @background;
+    text-color: @foreground;
+}
+element selected urgent {
+    background-color: @background;
+    text-color: @foreground;
+}
+error-message {
+    expand: true;
+    background-color: red;
+    border-color: darkred;
+    border: 2px;
+    padding: 1em;
+}

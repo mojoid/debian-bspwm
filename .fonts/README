@@ -1,0 +1,3 @@
+Refresh font cache 
+
+fc-cache -rv

@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+source ~/.config/bspwm/.bspwm
+
+if [[ "$@" == "quit" ]]
+then
+	exit 0
+fi
+
+shutdown() {
+	coproc ~/.config/bspwm/scripts/powermenu/promptmenu.sh --yes-command "$POWEROFF" --query "      Poweroff?"
+	}
+reboot() {
+	coproc ~/.config/bspwm/scripts/powermenu/promptmenu.sh --yes-command "$REBOOT" --query "       Reboot?"
+	}
+logout() {
+	coproc ~/.config/bspwm/scripts/powermenu/promptmenu.sh --yes-command "$LOGOUT" --query "       Logout?"
+	}
+back() {
+	coproc bash -c "~/.config/bspwm/rofi/rofi"
+	}
+set_powermenu() {
+	echo -e "back\nshutdown\nreboot\nlock\nsuspend\nlogout"
+	}
+
+if [ "$@" ]; then
+	case "$@" in
+		*polybar*) coproc ~/.config/bspwm/panel/color-switch.sh ;;
+		*musik) coproc ~/.scripts/sound/musik ;;
+		*powermenu) set_powermenu ;;
+	esac
+else
+	echo "♥ polybar themes"
+	echo "♥ musik"
+	echo "♥ screenshot"
+	echo "♥ powermenu"
+fi
+"$@"
+

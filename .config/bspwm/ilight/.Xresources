@@ -1,0 +1,138 @@
+! URXVT APPEARANCE
+URxvt.font:											xft:shuretechmono nerd font mono:size=10
+URxvt.geometry:								75x18
+URxvt.internalBorder:							20
+URxvt.cursorBlink:								true
+URxvt.cursorUnderline:						true
+URxvt.saveline:									32768
+URxvt.scrollBar:									false
+URxvt.scrollBar_right:						true
+URxvt.scrollBar_floating:					false
+URxvt.scrollstyle:								plain
+URxvt.urgentOnBell:							false
+URxvt.depth:										24
+URxvt.iso14755:									false
+! URxvt.iconFile:									/home/id/.icons/gladient/term.png
+Xcursor.size:										16
+!Xcursor.theme:									Bibata-Modern-Ice
+
+! URXVT EXTENSIONS
+URxvt.perl-ext-common:					default,clipboard,keyboard-select,url-select,tabbedex
+
+URxvt.keysym.Shift-Control-V:			perl:clipboard:paste
+URxvt.keysym.Shift-Control-C:			perl:clipboard:copy
+
+URxvt.tabbedex.no-tabbedex-keys:	yes
+URxvt.tabbedex.new-button:        		false
+URXvt.tabbedex.reopen-on-close:   	yes
+URxvt.tabbedex.autohide:          		yes
+
+URxvt.tabbedex.tabbar-fg:        			4
+URxvt.tabbedex.tabbar-bg:         		0
+URxvt.tabbedex.tab-fg:            			7
+URxvt.tabbedex.tab-bg:            			0
+URxvt.tabbedex.bell-fg:           			0
+URxvt.tabbedex.bell-bg:           			0
+URxvt.tabbedex.bell-tab-fg:       		0
+URxvt.tabbedex.bell-tab-bg:       		0
+URxvt.tabbedex.title-fg:          			7
+URxvt.tabbedex.title-bg:          			0
+
+URxvt.keysym.Control-Shift-T:     		perl:tabbedex:new_tab
+URxvt.keysym.Control-Shift-R:     		perl:tabbedex:rename_tab
+URxvt.keysym.Control-Shift-W:     		perl:tabbedex:kill_tab
+URxvt.keysym.Control-Next:        		perl:tabbedex:next_tab
+URxvt.keysym.Control-Prior:       		perl:tabbedex:prev_tab
+URxvt.keysym.Control-Shift-Next:  	perl:tabbedex:move_tab_right
+URxvt.keysym.Control-Shift-Prior: 	perl:tabbedex:move_tab_left
+
+URxvt.clipboard.copycmd:          		xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:         		xclip -o -selection clipboard
+URxvt.keysym.M-c:                 			perl:clipboard:copy
+URxvt.keysym.M-v:                 			perl:clipboard:paste
+URxvt.keysym.M-Escape:            		perl:keyboard-select:activate
+URxvt.keysym.M-s:                 			perl:keyboard-select:search
+
+URxvt.urlLauncher:                				firefox
+URxvt.underlineURLs:              			true
+URxvt.urlButton:                  				1
+
+!COLOR SCHEME
+! special
+*.foreground:			#5c5c5c
+*.background: 		#F8F5FA
+*.cursorColor:  		#5c5c5c
+
+! black
+	*.color0:       #f0f0f0
+	*.color8:       #bdbdbd
+
+! red
+<<<<<<< HEAD
+<<<<<<< HEAD
+	*.color1:       #FFADAD
+	*.color9:       #FFADAD
+
+! green
+	*.color2:       #CAFFBF
+	*.color10:      #CAFFBF
+
+! yellow
+	*.color3:       #FFD6A5
+	*.color11:     #FFD6A5
+
+! blue
+	*.color4:		 #A0C4FF
+	*.color12:     #A0C4FF
+
+! magenta
+	*.color5:       #BDB2FF
+	*.color13:     #BDB2FF
+
+! cyan
+	*.color6:       #9BF6FF
+	*.color14:     #9BF6FF
+=======
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+	*.color1:       #FFC1DA
+	*.color9:       #FFC7C6
+
+! green
+	*.color2:       #68E09B
+	*.color10:      #92E0B3
+
+! yellow
+	*.color3:       #F6F4BB
+	*.color11:      #FBFDCE
+
+! magenta
+	*.color4:       #D6ACF4
+	*.color12:      #DFCDFD
+
+! blue
+	*.color4:       #AFCEED
+	*.color12:      #CEDFFD
+
+! magenta
+	*.color5:       #D6ACF4
+	*.color13:      #DFCDFD
+
+! cyan
+	*.color6:       #ADEAE0
+	*.color14:     #CBEAE5
+<<<<<<< HEAD
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+
+! white
+	*.color7:       #515151
+	*.color15:     #5c5c5c
+
+
+
+
+
+
+

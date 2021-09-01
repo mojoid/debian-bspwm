@@ -1,0 +1,139 @@
+/*
+*/
+configuration {
+show-icons: true;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+@import "color-bar.rasi"
+* {
+=======
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+
+* {
+  /* General */
+  accent:           #b379f2;
+  background:       #f9f9f9;
+  background-light: #f0f0f0;
+  foreground:       #ff80c3;
+<<<<<<< HEAD
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+  on:               #2be491;
+  off:              #dddddd;
+  
+  text-font:                            "Comfortaa Bold 14";
+  icon-font:                            "feather 25";
+
+  option-6-listview-spacing:            25px;
+
+  // top right bottom left
+  menu-window-padding:                  6px 6px 6px 30px;
+  menu-prompt-padding:                  10px 20px 25px 15px;
+  menu-prompt-margin:                    0px;
+  menu-element-border:                   0px 10px 0px 10px;
+  menu-element-padding:                 20px 10px 20px -35px;
+}
+
+#window {
+  width: 230px;
+  height: 180px;
+  location: center;
+  border: 0px;
+}
+
+* {
+  background-color: @background;
+  text-color: @foreground;
+  font: @icon-font;
+  location: center;
+}
+
+#horibox {
+  children: [ listview ];
+}
+
+#listview {
+  layout: horizontal;
+}
+
+#element {
+  border: 0px;
+  padding: @option-element-padding;
+  background-color: @background-light;
+  border-radius: 8px;
+}
+
+#element.selected {
+  background-color: @accent;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  text-color: @fg-selected;
+=======
+  text-color: @background;
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+  text-color: @background;
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+}
+
+#window {
+  padding: @menu-window-padding;
+  children: [ inputbar, horibox ];
+}
+
+#inputbar {
+  children: [ prompt ];
+  margin: @menu-inputbar-margin;
+}
+
+#listview {
+  spacing: @option-6-listview-spacing;
+  lines: 2;
+}
+
+prompt {
+  padding: @menu-prompt-padding;
+}
+
+#prompt {
+  margin: @menu-prompt-margin;
+  background-color: @background;
+  text-color: @accent;
+  font: @text-font;
+}
+
+#element {
+  font: @icon-font;
+  border: @menu-element-border;
+  padding: @menu-element-padding;
+  border-color: @background-light;
+}
+
+#element.selected {
+  border-color: @accent;
+}
+
+element.active,
+element.selected.urgent {
+  background-color: @on;
+  text-color: @background;
+  border-color: @on;
+}
+
+element.selected.urgent {
+  border-color: @accent;
+}
+
+element.urgent,
+element.selected.active {
+  background-color: @off;
+  text-color: @background;
+  border-color: @off;
+}
+
+element.selected.active {
+  border-color: @accent;
+}

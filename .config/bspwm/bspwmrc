@@ -1,0 +1,81 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+<<<<<<< HEAD
+<<<<<<< HEAD
+bspc monitor -d I II III IV V
+
+## config
+bspc config border_width         0
+bspc config window_gap           5
+#bspc config split_ratio          0
+=======
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+
+bspc monitor -d I II III IV V
+
+# config
+bspc config border_width         0
+bspc config window_gap           5
+bspc config split_ratio          0
+<<<<<<< HEAD
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_follows_pointer	true
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+## rule
+=======
+# rule
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+# rule
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a URxvt state=floating
+bspc rule -a URxvt:music desktop='^5'
+bspc rule -a Viewnior state=floating
+<<<<<<< HEAD
+<<<<<<< HEAD
+bspc rule -a Parole state=floating
+
+## scripts
+killall dunst &
+~/.config/bspwm/startup &
+~/.config/bspwm/scripts/display/brightness-startup &> /dev/null &
+
+## app
+killall lxpolkit; lxpolkit &
+xsetroot -cursor_name left_ptr &
+xfce4-power-manager &
+~/.config/bspwm/panel/launch.sh &
+pkill picom; sleep 0.5; picom -b &
+=======
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+
+# scripts
+~/.config/bspwm/startup &
+~/.config/bspwm/scripts/display/brightness-startup &> /dev/null &
+
+# app
+killall dunst &
+lxpolkit &
+xsetroot -cursor_name left_ptr &
+xfce4-power-manager &
+~/.config/bspwm/panel/launch.sh &R
+pkill picom; sleep 1; picom -b &
+<<<<<<< HEAD
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+=======
+>>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+

@@ -1,0 +1,4 @@
+#/usr/bin/env bash
+
+rofi -no-lazy-grab -show drun -theme ~/.config/bspwm/rofi/idesktop.rasi
+&> /dev/null

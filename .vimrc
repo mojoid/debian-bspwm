@@ -1,0 +1,17 @@
+syntax enable
+set laststatus=2
+set statusline+=%F
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set nobackup
+set incsearch
+set nowrap
+set scrolloff=10
+set ignorecase
+set smartcase
+set showcmd
+set showmatch
+set hlsearch
+set wildmenu
+set wildmode=list:longest

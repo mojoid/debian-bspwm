@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1619000982107091-1</unique-id>
+	<command>/usr/bin/urxvt</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>folder</icon>
+	<name>Open as Root</name>
+	<unique-id>1627908655256530-2</unique-id>
+	<command>pkexec thunar %F</command>
+	<description>Open the folder with administration privileges</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>mpv</name>
+	<unique-id>1619009096272056-1</unique-id>
+	<command>/usr/bin/mpv %f</command>
+	<description>mpv</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+</action>
+</actions>
+
