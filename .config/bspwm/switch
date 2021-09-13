@@ -3,8 +3,6 @@ source ~/.config/bspwm/.bspwm
 # kill ui
 killall dunst 
 killall polybar
-<<<<<<< HEAD
-<<<<<<< HEAD
 killall lxpolkit
 killall picom
 
@@ -37,14 +35,6 @@ EOF
 
 set_light() {
 	colors-bar-light
-=======
-
-set_light() {
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-
-set_light() {
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 	# polybar
 	sed -i -e 's/background = #.*/background = #FDFDFD/g' ~/.config/bspwm/panel/colors.ini
 	sed -i -e 's/foreground = #.*/foreground = #8F8F8F/g' ~/.config/bspwm/panel/colors.ini
@@ -64,13 +54,7 @@ set_light() {
 	#sed -i '4s\icon_theme=.*\icon_theme=ilight\' ~/.config/qt5ct/qt5ct.conf
 	}
 set_dark() {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	colors-bar-dark
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 	# polybar
 	sed -i -e 's/background = #.*/background = #353535/g' ~/.config/bspwm/panel/colors.ini
 	sed -i -e 's/foreground = #.*/foreground = #FDFDFD/g' ~/.config/bspwm/panel/colors.ini

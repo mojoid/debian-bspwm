@@ -34,15 +34,7 @@ function notify {
         fi
     fi
     #echo "$brightness" > ~/.config/i3/scripts/brightness-current
-<<<<<<< HEAD
-<<<<<<< HEAD
     sed -i "7s_.*_BRIGHTNESS=${brightness}_" $HOME/.config/bspwm/.bspwm
-=======
-    sed -i "7s_.*_BRIGHTNESSCURRENT=${brightness}_" $HOME/.config/bspwm/.bspwm
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-    sed -i "7s_.*_BRIGHTNESSCURRENT=${brightness}_" $HOME/.config/bspwm/.bspwm
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
     $NOTIFIER -i "$icon_name.png" -t 2000 -r 1234 "$brightness "
 }
 

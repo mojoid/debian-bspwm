@@ -2,7 +2,7 @@
 
 # Add this script to your wm startup file.
 
-DIR="$HOME/.config/bspwm/panel/"
+DIR="$HOME/.config/bspwm/panel"
 
 # Terminate already running bar instances
 killall polybar

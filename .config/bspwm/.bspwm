@@ -3,18 +3,8 @@ THEME="iDark"
 WALLPAPER="DEFAULT"
 SSFRAME="#fdfdfd"
 PANELPOSITION="TOP"
-<<<<<<< HEAD
-<<<<<<< HEAD
-MUSIC="off"
-BRIGHTNESS=8
-=======
 MUSIC="on"
-BRIGHTNESSCURRENT=18
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-MUSIC="on"
-BRIGHTNESSCURRENT=18
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+BRIGHTNESS=30
 
 #------------[ theme ]
 if [[ $THEME == "iLight" ]]; then

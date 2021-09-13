@@ -4,7 +4,7 @@
   background: #353535FF;
   foreground: #FDFDFDFF;
   foreground-list: #00000000;
-  background-light: #bdbdbd33;
+  background-light: #FFC1DA33;
   background-focus: #515151FF;
-  accent: #bdbdbdFF;
+  accent: #FFC1DAFF;
 }

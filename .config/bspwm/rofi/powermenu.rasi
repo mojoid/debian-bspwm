@@ -2,39 +2,16 @@
 configuration {
 show-icons: true;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 @import "color-bar.rasi"
 * {
    on:               #2be491;
-=======
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-* {
-   accent:           #b379f2;
-  background:       #f9f9f9;
-  background-light: #f0f0f0;
-  foreground:       #ff80c3;
-  on:               #2be491;
-<<<<<<< HEAD
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
   off:              #dddddd;
 
   /* General */
   text-font:                            "Comfortaa 12";
   icon-font:                            "feather 18";
   
-<<<<<<< HEAD
-<<<<<<< HEAD
   option-6-listview-spacing:              5px;
-=======
-  option-6-listview-spacing:            5px;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-  option-6-listview-spacing:            5px;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
   menu-window-padding:                  5px 5px;
   menu-element-padding:                 20px 23px 20px -10px;
 }
@@ -104,15 +81,7 @@ show-icons: true;
 
 #element.selected {
   border-color: @accent;
-<<<<<<< HEAD
-<<<<<<< HEAD
   text-color: @fg-selected;
-=======
-  text-color: @background;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-  text-color: @background;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 }
 
 element.active,

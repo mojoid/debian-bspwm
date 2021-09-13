@@ -9,15 +9,9 @@ configuration {
 	sidebar-mode: 				false;
 	modi:								"drun,run,window,Favorite:~/.config/bspwm/rofi/favorit";
 	font:								"Share Tech 11";
-<<<<<<< HEAD
-<<<<<<< HEAD
 	display-drun:					"Apps";
 	display-run:						"Run";
 	display-window:				"Running Apps";
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 }
 
 * {
@@ -26,24 +20,14 @@ configuration {
 	columns: 1;
 	lines: 5;
 	x-offset: 5px;
-	y-offset: 37px;
+	y-offset: 39px;
 }
 
 @import "colors.rasi"
 
 window {
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 250px;
     width: 550px;
-=======
-    height: 289px;
-    width: 600px;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-    height: 289px;
-    width: 600px;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
     location: northwest;
     anchor: northwest;
     text-color: @foreground;
@@ -57,42 +41,17 @@ entry {
 	padding: 5px 0px;
 }
 inputbar {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	margin: 5px 130px 0px;
 	//border: 1px 1px 2px;
 	border-radius: 8px;
-=======
-	margin: 8px 120px 0px;
-	border: 1px 1px 2px;
-	border-radius: 25%;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-	margin: 8px 120px 0px;
-	border: 1px 1px 2px;
-	border-radius: 25%;
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 	border-color: @foreground-list;
 }
 mainbox {
     background-color: @accent;
-<<<<<<< HEAD
-<<<<<<< HEAD
     spacing: 3px;
 }
 listview {
 	    padding: 30px 50px 30px;
-=======
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-    spacing: 8px;
-}
-listview {
-	    padding: 30px 50px 75px;
-<<<<<<< HEAD
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 }
 element {
 	padding: 5px 20px;

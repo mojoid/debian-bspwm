@@ -64,71 +64,36 @@ URxvt.urlButton:                  				1
 *.cursorColor:  		#5c5c5c
 
 ! black
-	*.color0:       #f0f0f0
-	*.color8:       #bdbdbd
+*.color0:       #f0f0f0
+*.color8:       #bdbdbd
 
 ! red
-<<<<<<< HEAD
-<<<<<<< HEAD
-	*.color1:       #FFADAD
-	*.color9:       #FFADAD
+*.color1:       #ef5093
+*.color9:       #ef3080
 
 ! green
-	*.color2:       #CAFFBF
-	*.color10:      #CAFFBF
+*.color2:       #68e09b
+*.color10:      #2ae077
 
 ! yellow
-	*.color3:       #FFD6A5
-	*.color11:     #FFD6A5
+*.color3:       #ffb630
+*.color11:      #f0a412
 
 ! blue
-	*.color4:		 #A0C4FF
-	*.color12:     #A0C4FF
+*.color4:       #5294e2
+*.color12:      #9bbbff
 
 ! magenta
-	*.color5:       #BDB2FF
-	*.color13:     #BDB2FF
+*.color5:       #7e57c2
+*.color13:      #977fc2
 
 ! cyan
-	*.color6:       #9BF6FF
-	*.color14:     #9BF6FF
-=======
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-	*.color1:       #FFC1DA
-	*.color9:       #FFC7C6
-
-! green
-	*.color2:       #68E09B
-	*.color10:      #92E0B3
-
-! yellow
-	*.color3:       #F6F4BB
-	*.color11:      #FBFDCE
-
-! magenta
-	*.color4:       #D6ACF4
-	*.color12:      #DFCDFD
-
-! blue
-	*.color4:       #AFCEED
-	*.color12:      #CEDFFD
-
-! magenta
-	*.color5:       #D6ACF4
-	*.color13:      #DFCDFD
-
-! cyan
-	*.color6:       #ADEAE0
-	*.color14:     #CBEAE5
-<<<<<<< HEAD
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+*.color6:       #51cdff
+*.color14:      #1dbdff
 
 ! white
-	*.color7:       #515151
-	*.color15:     #5c5c5c
+*.color7:       #515151
+*.color15:      #5c5c5c
 
 
 

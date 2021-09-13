@@ -3,37 +3,17 @@ source ~/.config/bspwm/.bspwm
 
 case "$THEME" in
 iLight)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	dunst -config ~/.config/dunst/dunstrc-right &
-	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 3500 -u low "Light Mode" "Change Theme"
-=======
-	dunst -config ~/.config/dunst/dunstrc-left &
-	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 5000 -u low "Light Mode" "Change Theme"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-	dunst -config ~/.config/dunst/dunstrc-left &
-	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 5000 -u low "Light Mode" "Change Theme"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 	~/.config/bspwm/wallpaper/cw -set light.jpg
 	xrdb -merge ~/.config/bspwm/ilight/.Xresources
-	timeout 0.1s xsettingsd -c ~/.config/bspwm/ilight/.xsettingsd ;;
+	timeout 0.1s xsettingsd -c ~/.config/bspwm/ilight/.xsettingsd
+	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 3500 -u low "Light Mode" "Change Theme" ;;
 iDark)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	dunst -config ~/.config/dunst/dunstrc-dark-right &
-	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 3500 -u low "Dark Mode" "Change Theme"
-=======
-	dunst -config ~/.config/dunst/dunstrc-dark-left &
-	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 5000 -u low "Dark Mode" "Change Theme"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-	dunst -config ~/.config/dunst/dunstrc-dark-left &
-	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 5000 -u low "Dark Mode" "Change Theme"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 	~/.config/bspwm/wallpaper/cw -set dark.png
 	xrdb -merge ~/.config/bspwm/idark/.Xresources
-	timeout 0.1s xsettingsd -c ~/.config/bspwm/idark/.xsettingsd ;;
+	timeout 0.1s xsettingsd -c ~/.config/bspwm/idark/.xsettingsd
+	$NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 3500 -u low "Dark Mode" "Change Theme" ;;
 esac
 
 

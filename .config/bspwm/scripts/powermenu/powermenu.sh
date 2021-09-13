@@ -18,23 +18,10 @@ chosen="$(echo -e "$options" | $rofi_command -dmenu -selected-row 2)"
 
 case $chosen in
     $shutdown)
-<<<<<<< HEAD
-<<<<<<< HEAD
         ~/.config/bspwm/scripts/powermenu/promptmenu.sh  --yes-command "$POWEROFF" --query "      Poweroff ?"
         ;;
     $reboot)
         ~/.config/bspwm/scripts/powermenu/promptmenu.sh  --yes-command "$REBOOT" --query "       Reboot ?"
-=======
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-        ~/.config/bspwm/scripts/powermenu/promptmenu.sh  --yes-command "$POWEROFF" --query "      Poweroff?"
-        ;;
-    $reboot)
-        ~/.config/bspwm/scripts/powermenu/promptmenu.sh  --yes-command "$REBOOT" --query "       Reboot?"
-<<<<<<< HEAD
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
         ;;
     $lock)
         bash -c $LOCK

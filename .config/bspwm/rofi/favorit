@@ -25,7 +25,7 @@ set_powermenu() {
 if [ "$@" ]; then
 	case "$@" in
 		*polybar*) coproc ~/.config/bspwm/panel/color-switch.sh ;;
-		*musik) coproc ~/.scripts/sound/musik ;;
+		*musik) coproc ~/.config/bspwm/scripts/sound/musik ;;
 		*powermenu) set_powermenu ;;
 	esac
 else
