@@ -113,23 +113,10 @@ super + {Left,Down,Up,Right}
 
 #--------[ brightness/volume ]
 #
-<<<<<<< HEAD
-<<<<<<< HEAD
 # brightness: up | down
 XF86{MonBrightnessUp,MonBrightnessDown}
 	~/.config/bspwm/scripts/display/brightness {up,down}
 # volume: up | down | mute
-=======
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-# brightness: up/down
-XF86{MonBrightnessUp,MonBrightnessDown}
-	~/.config/bspwm/scripts/display/brightness {up,down}
-# volume: up/down/mute
-<<<<<<< HEAD
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 XF86Audio{RaiseVolume,LowerVolume,Mute}
 	~/.config/bspwm/scripts/sound/volume {up,down,mute}
 F12
@@ -146,19 +133,11 @@ super + shift + {p,m,Return}
 	bash -c ~/.config/bspwm/{scripts/sound/musik,switch,/rofi/rofi}
 {Print,super + Print}
 	bash -c ~/.config/bspwm/scripts/shot/{shot-now,screenshot.sh}
-<<<<<<< HEAD
-<<<<<<< HEAD
 # powermenu | info battery
-super + {_,alt +} Delete
-	bash -c ~/.config/bspwm/scripts/powermenu/{powermenu.sh,info-bat1.sh}	
+super + {_,shift +} Delete
+	bash -c ~/.config/bspwm/scripts/powermenu/{powermenu.sh,info-bat.sh}	
+super + alt + Delete
+	bash -c ~/.config/bspwm/scripts/powermenu/battery_status.sh
 # Push focused window to scratchpad (background)
 super + {_,shift +} a
 	~/.config/bspwm/scratchpad.sh {switch-app,toggle-flag}
-=======
-super + {Delete}
-	bash -c ~/.config/bspwm/scripts/powermenu/powermenu.sh
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-super + {Delete}
-	bash -c ~/.config/bspwm/scripts/powermenu/powermenu.sh
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1

@@ -15,6 +15,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-ascending" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-network" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/f520317838b70669ef50edc467ffbb83" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/contents/help-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/move-to-trash" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/back-alt" "BackSpace")
@@ -49,13 +50,8 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-templates" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/execute" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-window" "<Primary>q")
-<<<<<<< HEAD
-<<<<<<< HEAD
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/d9d3eb81ee6acd78b7a4b2a45e35aff0" "")
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
+; (gtk_accel_path "<Actions>/ThunarBookmarks/29ea8ac9f53441108f0a71f8f2fb9d9a" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/cut" "<Primary>x")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/sendto-desktop" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in-alt2" "<Primary>equal")
@@ -71,7 +67,6 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in-alt1" "<Primary>plus")
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-previous-tab" "<Primary>Page_Up")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/2914608c9db6fc99cc9faf6545bcdad8" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/0aa928340f1bfa5ba7dc2ba2a5c3ff12" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-statusbar" "")

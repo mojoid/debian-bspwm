@@ -1,0 +1,4 @@
+[Added Associations]
+application/x-sharedlib=geany.desktop;
+application/octet-stream=geany.desktop;
+image/png=feh.desktop;

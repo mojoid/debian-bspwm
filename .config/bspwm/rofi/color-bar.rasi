@@ -1,9 +1,9 @@
 /* colors for powermenu, promptmenu, shot */
 
-* {
-	accent:						#B379F2;
-	background:				#282828;
-	background-light:		#333333;
-	foreground:					#BDBDBD;
-	fg-selected:					#282828;
+* {  
+  accent:           			#B379F2;
+  background:       		#F9F9F9;
+  background-light: 	#F0F0F0;
+  foreground:       		#FF80C3;
+  fg-selected:				#F9F9F9;
 }

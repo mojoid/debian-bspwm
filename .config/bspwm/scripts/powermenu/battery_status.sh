@@ -8,8 +8,8 @@ do
 	CURRENT=$(echo $?)
 		
 		if [ $CURRENT -ne $PREVIOUS ]; then
-				sleep 5
-				echo `~/.config/bspwm/scripts/powermenu/info-bat1.sh`
+				sleep 4
+				echo `~/.config/bspwm/scripts/powermenu/info-bat.sh`
 				PREVIOUS=$(echo $CURRENT)
 		fi
 		sleep 1

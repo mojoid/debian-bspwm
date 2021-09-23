@@ -52,6 +52,8 @@ set_light() {
 	sed -i 's_gtk-icon-theme-name=.*_gtk-icon-theme-name="Sardi-Orb-Colora"_g' ~/.gtkrc-2.0
 	sed -i 's_gtk-icon-theme-name=.*_gtk-icon-theme-name=Sardi-Orb-Colora_g' ~/.config/gtk-3.0/settings.ini
 	#sed -i '4s\icon_theme=.*\icon_theme=ilight\' ~/.config/qt5ct/qt5ct.conf
+	# Geany
+	sed -i '23s/color_scheme=.*/color_scheme=/' ~/.config/geany/geany.conf
 	}
 set_dark() {
 	colors-bar-dark
@@ -72,6 +74,8 @@ set_dark() {
 	sed -i 's_gtk-icon-theme-name=.*_gtk-icon-theme-name="Sardi-Orb-Colora"_g' ~/.gtkrc-2.0
 	sed -i 's_gtk-icon-theme-name=.*_gtk-icon-theme-name=Sardi-Orb-Colora_g' ~/.config/gtk-3.0/settings.ini
 	#sed -i '4s\icon_theme=.*\icon_theme=idark\' ~/.config/qt5ct/qt5ct.conf
+	# Geany
+	sed -i '23s/color_scheme=.*/color_scheme=dark-fruit-salad.conf/' ~/.config/geany/geany.conf
 	}
 case "$1" in
 	1)

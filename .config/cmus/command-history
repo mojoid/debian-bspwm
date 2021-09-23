@@ -1,0 +1,26 @@
+set color_win_cur_sel_fg=black
+set color_win_sel_fg=black
+set color_win_sel_fg=cyan
+set color_win_sel_fg=blue
+set color_win_sel_fg=red
+set color_win_sel_fg=yellow
+set color_win_sel_bg=white
+set color_win_title_fg=black
+set color_win_title_bg=red
+set color_win_title_bg=white
+set color_titleline_bg=green
+set color_titleline_bg=red
+set color_titleline_bg=black
+set color_titleline_fg=black
+set color_titleline_bg=
+set color_win_dir=green
+set color_win_title_fg=green
+set color_win_title_fg=blue
+set color_win_sel_bg=black
+set color_win_sel_bg=grey
+set color_win_sel_bg=lightyellow
+set color_win_sel_bg=yellow
+set color_statusline_attr=magenta
+set color_statusline_attr=green
+set color_win_cur_sel_bg=yellow
+bind common <key> colorschemem

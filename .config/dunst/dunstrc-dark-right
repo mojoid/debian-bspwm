@@ -12,15 +12,7 @@ separator_height = 2
 padding = 8
 horizontal_padding = 11
 frame_width = 6
-<<<<<<< HEAD
-<<<<<<< HEAD
 frame_color = "#333333"
-=======
-frame_color = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-frame_color = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 separator_color = "#404859"
 
 font = mplus nerd font 10
@@ -61,39 +53,15 @@ context = ctrl+shift+period
 
 [urgency_low]
 timeout = 3
-<<<<<<< HEAD
-<<<<<<< HEAD
 background = "#333333"
-=======
-background = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-background = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 foreground = "#f9f9f9"
 
 [urgency_normal]
 timeout = 6
-<<<<<<< HEAD
-<<<<<<< HEAD
 background = "#333333"
-=======
-background = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-background = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 foreground = "#f9f9f9"
 
 [urgency_critical]
 timeout = 0
-<<<<<<< HEAD
-<<<<<<< HEAD
 background = "#333333"
-=======
-background = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
-=======
-background = "#3b4252"
->>>>>>> 566557ccb9e65c851d1dfe6ba8873c2034d55db1
 foreground = "#f9f9f9"

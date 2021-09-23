@@ -1,10 +1,10 @@
 #------------[ global variable do not Edit]
-THEME="iDark"
+THEME="iLight"
 WALLPAPER="DEFAULT"
 SSFRAME="#fdfdfd"
 PANELPOSITION="TOP"
-MUSIC="on"
-BRIGHTNESS=30
+MUSIC="off"
+BRIGHTNESS=26
 
 #------------[ theme ]
 if [[ $THEME == "iLight" ]]; then
